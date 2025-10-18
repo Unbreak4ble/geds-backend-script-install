@@ -8,3 +8,7 @@ if ! [ "$USER" == "root" ]; then
 fi
 
 echo "instalando servidor na maquina no usuario $username";
+
+for script in $(ls ./scripts); do
+	echo $script
+done;
