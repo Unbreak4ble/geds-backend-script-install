@@ -19,6 +19,8 @@ unzip source.zip
 
 rm source.zip
 
+cd *
+
 echo "executando"
 
 ./root-wrapper.sh
