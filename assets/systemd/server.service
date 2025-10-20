@@ -1,0 +1,11 @@
+[Unit]
+Description=Server Service
+After=network.target
+
+[Service]
+User=ubuntu
+WorkingDirectory=/srv/server
+ExecStart=bash /etc/server/scripts/init.sh
+
+[Install]
+WantedBy=multi-user.target

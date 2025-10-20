@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -e
+
 echo "preparando servidor git"
 
 target_dir="/home/$1"

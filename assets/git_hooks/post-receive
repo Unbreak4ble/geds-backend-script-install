@@ -2,4 +2,12 @@
 
 export GIT_WORK_TREE="/srv/server"
 
+while read old_cid new_cid refname; do
+        git checkout -f master;
 
+        echo "Reiniciando serviço";
+
+        sudo systemctl restart server.service;
+
+        echo "Reiniciado";
+done;
