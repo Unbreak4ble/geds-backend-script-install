@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 export GIT_WORK_TREE="/srv/server"
 

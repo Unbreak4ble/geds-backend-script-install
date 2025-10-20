@@ -1,3 +1,3 @@
-#!/bin/sh
+#!/bin/bash
 
 sudo ./setup.sh $USER

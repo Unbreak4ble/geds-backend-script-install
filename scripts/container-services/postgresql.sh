@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 fixed_dir=$(readlink -f ${0%/*})
 
