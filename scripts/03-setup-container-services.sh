@@ -1,7 +1,5 @@
 #!/bin/bash
 
-set -e
-
 fixed_dir=$(readlink -f ${0%/*})
 
 echo "configurando firewall do docker"
