@@ -16,3 +16,9 @@ cd $git_dir_name
 git init --bare
 
 echo "ambiente git criado em $target_dir/$git_dir_name"
+
+echo "criando diretorio worktree"
+
+mkdir -p /srv/server
+
+echo "diretorio worktree criado em /srv/server"
