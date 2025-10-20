@@ -3,7 +3,7 @@
 set -e
 
 target_dir=/var/tmp/server_install_files
-source_files_url='https://github.com/Unbreak4ble/geds-backend-script-install/archive/refs/tags/v1.0.5.zip'
+source_files_url='https://github.com/Unbreak4ble/geds-backend-script-install/archive/refs/tags/v1.0.6.zip'
 
 mkdir -p $target_dir
 

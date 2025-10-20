@@ -25,4 +25,6 @@ for script in $(ls $fixed_dir/container-services); do
 	fi;
 done
 
+sleep 10
+
 echo "containers inicializados"
