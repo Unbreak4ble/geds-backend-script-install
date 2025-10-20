@@ -17,7 +17,7 @@ systemctl restart docker
 
 echo "preparando containers nescessarios"
 
-for script in $(ls $fixed_dir/container-services); do
+for script in $(ls $fixed_dir/container-services | grep ".sh"); do
 	bash $fixed_dir/container-services/$script
 	ret_status=$?
 	if ! [ "$ret_status" = "0" ]; then

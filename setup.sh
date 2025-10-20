@@ -11,7 +11,8 @@ fi
 
 echo "instalando servidor na maquina no usuario $username";
 
-for script in $(ls ./scripts); do
+for script in $(ls ./scripts | grep ".sh"); do
+	echo "Script $script";
 	bash $fixed_dir/scripts/$script $username;
 	ret_status=$?
 	if ! [ "$ret_status" = "0" ]; then
